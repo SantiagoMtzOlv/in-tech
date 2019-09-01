@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IN-TECH</title>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="boostrap/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="boostrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="boostrap/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body style="height: 100%;">
+	<nav class="navbar navbar-expand-lg titulo" >
+		 <div class="mx-auto order-0 ">
+        	<a class="navbar-brand mx-auto text-title" id="titulo" href="#">  IN-TECH</a>
+        	
+    	  </div>
+	</nav>
+	<hr>
+<div class="container m100" >
+		    	<div class="container text-center h-50 d-inline-block"id="messages"></div>
+			    <form onsubmit="return addMessage(this);" >
+
+			    	<div class="form-group row">   
+				    	<input id="nickname" class="form-control" type="text" placeholder="Nombre"/>
+			    	</div>
+
+			    	<div class="form-group row">
+			    		<textarea id="text" class="form-control" rows="1" placeholder="Mensaje..."></textarea><br>
+			        </div>
+			        <input id="boton" type="submit" class="btn titulo btn-lg btn-block " value="Enviar"/>  
+			    </form>
+			    <br>		    
+    <footer id="footer">Instituto Tecnológico de Tláhuac<br>2018</footer>
+</div>
+	
+</body>
+</html>

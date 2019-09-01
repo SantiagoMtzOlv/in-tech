@@ -1,0 +1,44 @@
+   
+html,body{
+    
+    height:100%;
+    background:   #a9cce3 ;
+ }
+.m100 {
+    height:100%;
+    min-height:100%;
+
+}
+
+.mensaje{
+    margin: 20px;
+    padding: 5px;
+
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: rgb(164, 221, 176);
+
+}
+#messages{
+    
+    width: 100%;
+    background: #ccc;
+    overflow-y: scroll;
+    border: 1px solid #42f49b;
+    box-shadow: 0px 0px 20px #ccc inset;
+}
+.text-title{
+    color:white ;
+}
+.titulo{
+    background: #3CB371;
+    color: white;
+    padding: 5px;
+    text-align: center;
+
+}
+
+#footer{
+    position: relative;
+    text-align: center;
+}
